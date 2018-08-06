@@ -1,0 +1,8 @@
+---
+- name: Ansible makefile wanna be
+  hosts: 127.0.0.1
+  connection: local
+  vars:
+    tags: sebohe/parityPoA:latest
+  roles:
+    - build_docker
