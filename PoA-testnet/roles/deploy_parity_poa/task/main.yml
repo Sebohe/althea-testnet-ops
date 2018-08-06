@@ -1,0 +1,6 @@
+---
+- name: Deploys parity docker container
+  docker_container:
+    name: parity_poa
+    image: sebohe/parity-poa
+    command: par

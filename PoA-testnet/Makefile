@@ -1,8 +1,8 @@
 .PHONY: docker
 
-tag=sebohe/parityPoA:latest
+tag='sebohe/parity-poa:latest'
 
 all: docker
 
 docker:
-	docker build -f Dockerfile $(tag) .
+	docker build -f Dockerfile -t $(tag) .
